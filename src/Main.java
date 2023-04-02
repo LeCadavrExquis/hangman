@@ -38,7 +38,6 @@ public class Main {
             playerGuesses = newPlayerGuesses;
 
             displayUsedLetters(playerGuesses);
-            displayBlankedPassword(password,playerGuesses);
 
             if (passwordGuessed(password, playerGuesses)) {
                 break;
